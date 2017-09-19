@@ -25,7 +25,7 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 - Change the letter into number
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Alphabet consists of 26 characters.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I gave each character the number from 0 to 26, including empty space.</p>
-
+<img src="vector.jpg" style="width:304px;height:228px;">
 - Each name consists of different alphabet letters, which mean different length.
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set maximum number of alphabet as 40.</p> 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I added zero(0) into the empty spaces, which is called padding.</p>  
