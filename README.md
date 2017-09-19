@@ -30,10 +30,12 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 - Each name consists of different alphabet letters, which mean different length.
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set maximum number of alphabet as 40.</p> 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I added zero(0) into the empty spaces, which is called padding.</p>  
-
+                                                    
 - One hot encoding
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Transform categorical features to a format that works better with LSTM.</p> 
 
 - batch issue
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set up batch_size which is equal to 100.</p> 
+
+
 
