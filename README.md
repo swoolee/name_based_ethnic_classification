@@ -1,6 +1,7 @@
-# Name-based ethnic classificaction with tensorflow and long short term memory(LSTM)
+# Name-based ethnic classificaction with 
+<p>tensorflow and long short term memory(LSTM)</p>
 
-<h1>Motivation</h1>
+<h3>Motivation</h3>
 
 People with different ethnic groups differ in the cultural preference like food, clothes
 
