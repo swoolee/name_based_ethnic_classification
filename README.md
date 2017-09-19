@@ -1,5 +1,5 @@
 <h1> Name-based ethnic classificaction with 
-<p>tensorflow and long short term memory(LSTM)</p></h1>
+<p>tensorflow and Long Short Term Memory(LSTM)</p></h1>
 
 <h2>Motivation</h2>
 
@@ -17,17 +17,18 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 <h2>Methodology</h2>
 
 <h3>1. Data preprocessing.</h3>
-- It is an unstructured dataset(name), which is not organized in the model. 
-- So I had to unify the format of the name. There are techniques that I did as below.
+<p>- It is an unstructured dataset(name), which is not organized in the model.</p> 
+<p>- There are techniques to unify the format of the name as below.</p>
 
-- Convert capital letter into small letters with regular expression
+- Convert capital letters into small letters with regular expression
 
 - Change the letter into number
-..Alphabet consists of 27 characters.I gave each character the number from 0 to 26 including space.
+<p>..Alphabet consists of 26 characters.</p>
+<p>..I gave each character the number from 0 to 26, including empty space.</p>
 
-- Each name contains different numbers of alphabet, which mean different length of names.
-..I set maximum number of alphabet as 40. 
-..I add zero(0) into the empty spaces, which are padding.  
+- Each name consists of different alphabet letters, which mean different length.
+<p>..I set maximum number of alphabet as 40.</p> 
+<p>..I added zero(0) into the empty spaces, which are padding.</p>  
 
 - One hot encoding
 - batch issue
