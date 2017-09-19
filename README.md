@@ -23,12 +23,12 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 - Convert capital letters into small letters with regular expression
 
 - Change the letter into number
-<p>..Alphabet consists of 26 characters.</p>
-<p>..I gave each character the number from 0 to 26, including empty space.</p>
+<p>&nbsp;*Alphabet consists of 26 characters.</p>
+<p>&nbsp;*I gave each character the number from 0 to 26, including empty space.</p>
 
 - Each name consists of different alphabet letters, which mean different length.
-<p>..I set maximum number of alphabet as 40.</p> 
-<p>..I added zero(0) into the empty spaces, which are padding.</p>  
+<p>*I set maximum number of alphabet as 40.</p> 
+<p>*I added zero(0) into the empty spaces, which are padding.</p>  
 
 - One hot encoding
 - batch issue
