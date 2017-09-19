@@ -7,7 +7,7 @@ People with different ethnic groups differ in the cultural preference like food,
 
 Especially, Malaysia consists of the three main ethnic groups: Malay, Chinese, Indian
 
-Ethnic classification can help to develop a marketing strategy to appeal to customers
+So ethnic classification can help to develop a marketing strategy to appeal to customers
 
 <h2>Data</h2>
 
@@ -23,13 +23,16 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 - Convert capital letters into small letters with regular expression
 
 - Change the letter into number
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Alphabet consists of 26 characters.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I gave each character the number from 0 to 26, including empty space.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Alphabet consists of 26 characters.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I gave each character the number from 0 to 26, including empty space.</p>
 
 - Each name consists of different alphabet letters, which mean different length.
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set maximum number of alphabet as 40.</p> 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I added zero(0) into the empty spaces, which are padding.</p>  
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set maximum number of alphabet as 40.</p> 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I added zero(0) into the empty spaces, which is called padding.</p>  
 
 - One hot encoding
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Transform categorical features to a format that works better with LSTM.</p> 
+
 - batch issue
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set up batch_size which is equal to 100.</p> 
 
