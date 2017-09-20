@@ -32,7 +32,7 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I added zero(0) into the empty spaces, which is called padding.</p>  
                                                     
 - One hot encoding
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Tensorflow provides the function(tf.one_hot) that transforms categorical features to a format that works better with LSTM.</p> 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Tensorflow provides the function that transforms categorical features to a format that works better with LSTM.</p> 
 
 - batch issue
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set up batch_size which is equal to 100.</p> 
