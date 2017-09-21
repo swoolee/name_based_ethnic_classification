@@ -45,7 +45,7 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 
                                                                                          
 <h2>Accuracy Rate</h2>                                                                                        
-- 94% <test size: 3,786(30% of total data)>
+- 94% *test size: 3,786 (30% of total data)
  
                                                                                         
 <h2>Reference</h2>
