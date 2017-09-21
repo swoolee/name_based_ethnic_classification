@@ -42,10 +42,12 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 
 - Dropout
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*It helps to prevent LSTM models from overfitting.(rate=.5)</p> 
+
                                                                                          
-<h2>Accuracy</h2>                                                                                        <h3>3. Accuracy</h3>
+<h2>Accuracy Rate</h2>                                                                                        
 - 94% <test size: 3,786(30% of total data)>
-                                                                                         
+ 
+                                                                                        
 <h2>Reference</h2>
 <p>- https://github.com/hunkim/DeepLearningZeroToAll</p> 
 <p>- https://github.com/golbin/TensorFlow-Tutorials</p> 
