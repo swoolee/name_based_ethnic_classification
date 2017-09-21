@@ -48,3 +48,8 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 <p>- https://jasdeep06.github.io/posts/Understanding-LSTM-in-Tensorflow-MNIST/</p> 
 
 
+<h3>3. Accuracy</h3>
+- 94% <test size: 3,786(30% of total data)>
+
+
+
