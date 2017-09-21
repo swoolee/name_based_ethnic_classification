@@ -25,7 +25,6 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 - Change the letter into number
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Alphabet consists of 26 characters.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I gave each character the number from 0 to 26, including empty space.</p>
-<img src="vector.jpg" style="width:300px;height:50px;">
 
 - Each name consists of different alphabet letters, which mean different length.
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set maximum number of alphabet as 40.</p> 
@@ -34,9 +33,15 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 - One hot encoding
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Tensorflow provides the function that transforms categorical features to a format that works better with LSTM.</p> 
 
+<h2>Model</h2>
+- LSTM
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Used for complex sequence issues which involve NLP .</p> 
+
 - batch issue
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set up batch_size which is equal to 100.</p> 
 
+- Dropout
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*It helps to prevent LSTM models from overfitting.(rate=.5)</p> 
 <h2>Reference</h2>
 <p>- https://github.com/hunkim/DeepLearningZeroToAll</p> 
 <p>- https://github.com/golbin/TensorFlow-Tutorials</p> 
