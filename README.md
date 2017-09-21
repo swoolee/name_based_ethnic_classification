@@ -34,8 +34,8 @@ I collected the total 12,623 numbers of unique names on each ethinic grop: India
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Tensorflow provides the function that transforms categorical features to a format that works better with LSTM.</p> 
 
 <h2>Model</h2>
+
 - LSTM
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Used for complex sequence issues which involve NLP .</p> 
 
 - batch issue
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set up batch_size which is equal to 100.</p> 
