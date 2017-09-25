@@ -9,6 +9,10 @@ Especially, Malaysia consists of the three main ethnic groups: Malay, Chinese, I
 
 So ethnic classification can help to develop a marketing strategy to appeal to customers
 
+<h2>Application</h2>
+This graph shows the revenue of brands on each ethnic group over certain period.
+<img src="ethnic_classification_example.jpg">
+
 <h2>Data</h2>
 
 I collected the total 12,623 numbers of unique names on each ethinic grop: Indian, Malay, Chinese
