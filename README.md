@@ -3,46 +3,40 @@
 
 <h2>Motivation</h2>
 
-People with different ethnic groups differ in the cultural preference like food, clothes
+To automate the classification of list of names by ethnic groups: Malay, Chinese and Indian
 
-Especially, Malaysia consists of the three main ethnic groups: Malay, Chinese, Indian
+<h2>Use Case</h2>
+When It comes to revenue, The graph shows the top 10 brands by Ethnic groups: Malay, Chinese and Indian
 
-So ethnic classification can help to develop a marketing strategy to appeal to customers
-
-<h2>Application</h2>
-This graph shows the revenue of brands on each ethnic group over certain period.
 <img src="ethnic_classification_example.jpg">
 
 <h2>Data</h2>
 
-I collected the total 12,623 numbers of unique names on each ethinic grop: Indian, Malay, Chinese
+I collected the total 12,623 numbers of unique names by each ethinic grop: Indian, Malay, Chinese
 
 
 <h2>Methodology</h2>
 
 <h3>1. Data preprocessing.</h3>
-<p>- It is an unstructured dataset(name), which is not organized in the model.</p> 
-<p>- There are techniques to unify the format of the name as below.</p>
+<p>- It is about converting unstructured dataset(Alphabet) into structured format.</p> 
 
-- Convert capital letters into small letters with regular expression
+- Convert capital letters into small letters
 
-- Change the letter into number
+- Change the characters into number(vectors)
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Alphabet consists of 26 characters.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I gave each character the number from 0 to 26, including empty space.</p>
 
-- Each name consists of different alphabet letters, which mean different length.
+- Padding: add zero(0) into the empty spaces per rows
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set maximum number of alphabet as 40.</p> 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I added zero(0) into the empty spaces, which is called padding.</p>  
-                                                    
+                                                      
 - One hot encoding
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Tensorflow provides the function that transforms categorical features to a format that works better with LSTM.</p> 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*A term that is a representation of categorical variables as binary vectors.</p> 
 
 <h3>2. Model</h3>
 
 - LSTM
 
-- batch issue
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*I set up batch_size which is equal to 100.</p> 
+- batch issue: 100
 
 - Dropout
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*It helps to prevent LSTM models from overfitting.(rate=.5)</p> 
