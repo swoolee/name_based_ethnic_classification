@@ -1,4 +1,4 @@
-<h1> Name-based ethnic classificaction with 
+<h1> Name-based ethnic classification with 
 <p>tensorflow and Long Short Term Memory(LSTM)</p></h1>
 
 <h2>Motivation</h2>
